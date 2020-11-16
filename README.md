@@ -20,9 +20,11 @@ If you do have pip, but need to **update**, simply run `py -m pip install -U pip
 ### Modules
 If you already have pip installed, open command prompt and do the following: <br>
 
-`pip install keyboard` <br>
-`pip install pymem` <br>
-`pip install pywin32` <br>
+```shell script
+foo@bar> pip install keyboard
+foo@bar> pip install pymem
+foo@bar> pip install pywin32
+```
 
 Note: Pywin32 is a packet module containing win32gui (among others). <br>
 This is updated more frequently and should be preferred.
