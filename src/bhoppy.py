@@ -40,7 +40,7 @@ while True:
             on_ground = game.read_int(player_status + m_fFlags)
             if keyboard.is_pressed('space') and on_ground == 257:
                 game.write_int(jump, 5)
-                time.sleep(0.15)
+                time.sleep(0.1)
                 game.write_int(jump, 4)
     except:
         pass
