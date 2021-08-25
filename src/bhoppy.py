@@ -1,6 +1,6 @@
 # ------------------
 # Working as of
-# 19.12.2020
+# 25.08.2021
 # ------------------
 
 import time
@@ -18,10 +18,11 @@ if not pymem.process:
     print("Pymem process has not been imported!")
 
 # First we need to load the CS:GO memory offsets. These might change after the game gets updated.
-dwForceJump = 0x5249B34
-dwLocalPlayer = 0xD882BC
-dwGlowObjectManager = 0x52E81B0
-dwEntityList = 0x4D9FBD4
+# Special thanks to https://github.com/frk1/hazedumper for these offsets.
+dwForceJump = 0x524CFDC
+dwLocalPlayer = 0xD8A2DC
+dwGlowObjectManager = 0x52EB658
+dwEntityList = 0x4DA31EC
 m_iGlowIndex = 0xA438
 m_fFlags = 0x104
 m_bSpotted = 0x93D
