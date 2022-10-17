@@ -1,6 +1,6 @@
 # Bhoppy
 A Bunny Hopper for **Counter-Strike: Global Offensive**. <br>
-Working as of [17.10.2022](https://blog.counter-strike.net/index.php/2021/08/35244/). <br>
+Working as of [27.09.2022](https://blog.counter-strike.net/index.php/2022/09/39787/). <br>
 See changelogs for patch notes.
 
 ## Installation
